@@ -1,0 +1,121 @@
+ESTAÇÃO;DISPOSITIVO;QUANTIDADE;DATA
+EST01;Aparelho IP Tipo I;115;2021-02-01
+EST02;Aparelho IP Tipo I;13;2021-02-01
+EST02;Aparelho IP Tipo II;3;2021-02-01
+EST03;Softphone Tipo II;2025;2021-02-01
+EST03;Aparelho IP Tipo I;40;2021-02-01
+EST03;Aparelho Analogico;103;2021-02-01
+EST03;Aparelho Digital;28;2021-02-01
+EST04;Softphone Tipo II;1010;2021-02-01
+EST04;Aparelho IP Tipo I;40;2021-02-01
+EST04;Aparelho IP Tipo II;8;2021-02-01
+EST05;Aparelho IP Tipo I;1120;2021-02-01
+EST05;Aparelho IP Tipo II;55;2021-02-01
+EST05;Softphone Tipo I;52;2021-02-01
+EST05;Softphone Tipo II;52;2021-02-01
+EST05;Aparelho Analogico;233;2021-02-01
+EST05;Aparelho Digital;10;2021-02-01
+EST06;Aparelho IP Tipo I;510;2021-02-01
+EST06;Softphone Tipo II;57;2021-02-01
+EST07;Aparelho IP Tipo I;150;2021-02-01
+EST07;Softphone Tipo II;165;2021-02-01
+EST07;Softphone Tipo I;60;2021-02-01
+EST08;Aparelho IP Tipo I;75;2021-02-01
+EST09;Aparelho IP Tipo I;38;2021-02-01
+EST10;Aparelho IP Tipo I;110;2021-02-01
+EST11;Aparelho IP Tipo I;35;2021-02-01
+EST11;Softphone Tipo II;40;2021-02-01
+EST11;Softphone Tipo I;10;2021-02-01
+EST12;Aparelho Analogico;110;2021-02-01
+EST12;Aparelho Digital;52;2021-02-01
+EST13;Aparelho Digital;52;2021-02-01
+EST14;Aparelho Digital;5;2021-02-01
+EST15;Aparelho IP Tipo I;23;2021-02-01
+EST16;Softphone Tipo II;19;2021-02-01
+EST16;Aparelho IP Tipo I;414;2021-02-01
+EST16;Aparelho IP Tipo II;45;2021-02-01
+EST17;Aparelho Analogico;47;2021-02-01
+EST17;Aparelho Digital;12;2021-02-01
+EST18;Aparelho IP Tipo I;10;2021-02-01
+EST19;Aparelho IP Tipo I;110;2021-02-01
+EST20;Aparelho IP Tipo I;505;2021-02-01
+EST21;Aparelho IP Tipo I;233;2021-02-01
+EST22;Softphone Tipo II;233;2021-02-01
+EST22;Aparelho IP Tipo I;480;2021-02-01
+EST22;Aparelho IP Tipo II;45;2021-02-01
+EST22;Softphone Tipo I;45;2021-02-01
+EST22;Aparelho Analogico;115;2021-02-01
+EST22;Aparelho Digital;10;2021-02-01
+EST23;Aparelho Digital;185;2021-02-01
+EST23;Aparelho Digital;23;2021-02-01
+EST24;Aparelho Analogico;48;2021-02-01
+EST24;Aparelho Digital;11;2021-02-01
+EST25;Aparelho Digital;5;2021-02-01
+EST26;Aparelho Analogico;8;2021-02-01
+EST27;Aparelho IP Tipo I;700;2021-02-01
+EST27;Aparelho IP Tipo II;80;2021-02-01
+EST27;Aparelho IP Tipo III;21;2021-02-01
+EST27;Softphone Tipo II;762;2021-02-01
+EST27;Softphone Tipo I;33;2021-02-01
+EST28;Aparelho IP Tipo I;80;2021-02-01
+EST28;Aparelho IP Tipo II;20;2021-02-01
+EST28;Softphone Tipo II;100;2021-02-01
+EST29;Aparelho IP Tipo I;233;2021-02-01
+EST29;Aparelho IP Tipo II;15;2021-02-01
+EST29;Aparelho IP Tipo III;5;2021-02-01
+EST29;Softphone Tipo II;240;2021-02-01
+EST30;Aparelho Analogico;38;2021-02-01
+EST30;Aparelho Digital;8;2021-02-01
+EST31;Aparelho IP Tipo I;200;2021-02-01
+EST31;Aparelho IP Tipo II;30;2021-02-01
+EST31;Softphone Tipo II;240;2021-02-01
+EST32;Aparelho Analogico;23;2021-02-01
+EST32;Aparelho Digital;2;2021-02-01
+EST33;Aparelho Analogico;4;2021-02-01
+EST34;Aparelho IP Tipo I;200;2021-02-01
+EST34;Aparelho IP Tipo II;30;2021-02-01
+EST34;Softphone Tipo II;215;2021-02-01
+EST35;Softphone Tipo II;55;2021-02-01
+EST35;Softphone Tipo I;1;2021-02-01
+EST35;Aparelho IP Tipo I;533;2021-02-01
+EST35;Aparelho IP Tipo II;68;2021-02-01
+EST35;Aparelho Analogico;5;2021-02-01
+EST35;Aparelho Digital;1;2021-02-01
+EST36;Softphone Tipo II;55;2021-02-01
+EST36;Aparelho IP Tipo I;233;2021-02-01
+EST36;Aparelho IP Tipo II;8;2021-02-01
+EST37;Aparelho Digital;2;2021-02-01
+EST38;Aparelho IP Tipo I;300;2021-02-01
+EST38;Aparelho IP Tipo II;40;2021-02-01
+EST38;Softphone Tipo II;200;2021-02-01
+EST38;Aparelho Analogico;40;2021-02-01
+EST38;Aparelho Digital;2;2021-02-01
+EST39;Aparelho IP Tipo I;650;2021-02-01
+EST39;Softphone Tipo II;756;2021-02-01
+EST39;Aparelho Analogico;200;2021-02-01
+EST39;Aparelho Digital;20;2021-02-01
+EST40;Aparelho Digital;2;2021-02-01
+EST41;Aparelho Digital;2;2021-02-01
+EST42;Aparelho IP Tipo I;2;2021-02-01
+EST42;Aparelho Analogico;8;2021-02-01
+EST43;Aparelho IP Tipo I;600;2021-02-01
+EST43;Softphone Tipo II;400;2021-02-01
+EST44;Aparelho IP Tipo I;2;2021-02-01
+EST45;Softphone Tipo II;15;2021-02-01
+EST45;Softphone Tipo I;1;2021-02-01
+EST45;Aparelho IP Tipo I;148;2021-02-01
+EST45;Aparelho IP Tipo II;22;2021-02-01
+EST45;Aparelho Analogico;533;2021-02-01
+EST45;Aparelho Digital;63;2021-02-01
+EST46;Aparelho IP Tipo I;350;2021-02-01
+EST46;Aparelho IP Tipo II;50;2021-02-01
+EST46;Softphone Tipo II;400;2021-02-01
+EST47;Softphone Tipo II;81;2021-02-01
+EST48;Aparelho Analogico;18;2021-02-01
+EST48;Aparelho Digital;10;2021-02-01
+EST49;Aparelho Digital;35;2021-02-01
+EST50;Aparelho Digital;52;2021-02-01
+EST50;Aparelho Digital;2;2021-02-01
+EST51;Aparelho Digital;45;2021-02-01
+EST52;Aparelho Analogico;52;2021-02-01
+EST53;Aparelho IP Tipo I;410;2021-02-01
