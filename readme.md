@@ -31,11 +31,11 @@ A primeira fase do projeto consistiu no levantamento de requisitos e planejament
 
 O Data Warehouse foi implementado para realizar a integração das informações do serviço de telefonia relevantes para a elaboração do painel. Foi desenvolvido em um sistema de gerenciamento de banco de dados PostgreSQL, versão 12. A arquitetura escolhida foi a Global e Centralizada. Por conta disto, não foram desenvolvidos Data Marts. Além disso, optou-se por utilizar a arquitetura on-premisses.
 
-Para o processo de ETL foram utilizadas as ferramentas Jupyter Notebook Pentaho Data Integration (PDI).
+Para o processo de ETL foram utilizadas as ferramentas Jupyter Notebook e Pentaho Data Integration (PDI).
 
 ### 3. Resultados
 
-Foi elaborado um painel considerando-se as necessidades de consulta, correlação e visualização de dados. Para isto foi utilizada a ferramenta Power BI. O painel apresenta informações, tais como quantidade total de ramais, quantidade de ramais IP (VoIP) e TDM, quantidade de dispositivos distintos, quantidade de ramais por tipo de ambiente onshore e offshore, quantidade de aparelhos telefônicos e softphone e histórico dos quantitativos de dispositivos distintos.
+O painel foi elaborado considerando-se as necessidades de consulta, correlação e visualização de dados. Para isto foi utilizada a ferramenta Power BI. O painel apresenta informações, tais como quantidade total de ramais, quantidade de ramais que utilizam a tecnologia IP (VoIP) e TDM, quantidade de dispositivos distintos, quantidade de ramais por tipo de ambiente, quantidade de aparelhos telefônicos e softphone e histórico dos quantitativos de dispositivos distintos.
 
 ### 4. Conclusões
 
