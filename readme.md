@@ -20,13 +20,9 @@ Ao final do projeto foi entregue para a empresa um Data Warehouse e um painel co
 
 ### 1. Introdução
 
-A EPB é uma empresa que atua no setor de petróleo no Brasil. 	Esta empresa ocupa diversos prédios, localizadas em vários estados do território brasileiro e possui várias unidades no ambiente offshore. Os funcionários de cada uma destas localidades têm ao seu dispor diversos tipos de dispositivos providos pelo Serviço de Telefonia Corporativo, que possibilitam a comunicação por voz internamente e com o ambiente externo à empresa. 
-
-Devido à vasta quantidade de localidades atendidas, a diversidade de dispositivos utilizados e o grande número de usuários, ter uma visão geral dos números relacionados ao Serviço de Telefonia Corporativo sempre foi um desafio para os gestores da área de TI desta empresa. Os dados sempre estiveram disponíveis, mas não havia uma integração, muito menos o acesso de forma interativa e intuitiva. Os levantamentos e consolidações das informações eram feitos por demanda e de forma manual.  
+Devido à vasta quantidade de localidades atendidas, a diversidade de dispositivos telefônicos utilizados e o grande número de usuários, ter uma visão geral dos números relacionados ao Serviço de Telefonia Corporativo sempre foi um desafio para os gestores da área de TI desta empresa. Os dados sempre estiveram disponíveis, mas não havia uma integração, muito menos o acesso de forma interativa e intuitiva. Os levantamentos e consolidações das informações eram feitos por demanda e de forma manual.  
 
 Este artigo apresenta a processo e a metodologia utilizados para a elaboração de um painel desenvolvido no Power BI, com informações a respeito da rede de telefonia da EPB. O desenvolvimento deste dashboard permitiu a integração dos dados, a disponibilização de self-service para análises específicas, tabelas e gráficos dinâmicos, tornando mais produtivo o planejamento e administração do serviço de telefonia.
-
-Para manter a confidencialidade, foi realizada a anonimização dos dados. Desta forma, o nome da empresa, as localidades e os quantitativos apresentados neste trabalho foram gerados de forma artificial. Porém, toda a metodologia aqui apresentada corresponde ao que foi de fato desenvolvido na empresa.
 
 ### 2. Modelagem
 
