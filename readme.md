@@ -3,7 +3,6 @@
 
 #### Aluno: [Eduardo Mendes Tavares](https://github.com/edumenta)
 #### Orientador: [Anderson Nascimento](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
 
 ---
 
