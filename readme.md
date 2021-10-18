@@ -1,4 +1,4 @@
-<!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
+
 # Painel de Telefonia
 
 #### Aluno: [Eduardo Mendes Tavares](https://github.com/edumenta)
@@ -8,64 +8,50 @@
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-<!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
+- [Link para o código](Painel de Telefonia - v1.0).
 
-- [Link para a monografia](https://link_da_monografia.com). <!-- caso não aplicável, remover esta linha -->
-
-- Trabalhos relacionados: <!-- caso não aplicável, remover estas linhas -->
-    - [Nome do Trabalho 1](https://link_do_trabalho.com).
-    - [Nome do Trabalho 2](https://link_do_trabalho.com).
+- [Link para a monografia](Descrição do Projeto Painel de Telefonia).
 
 ---
 
 ### Resumo
 
-<!-- trocar o texto abaixo pelo resumo do trabalho, em português -->
+Este trabalho descreve um projeto desenvolvido com o objetivo de resolver problemas reais enfrentados pela gerência de TI responsável pela gestão do serviço de telefonia corporativo de uma empresa.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Para o desenvolvimento do trabalho foram utilizados para a extração, transformação e carga (ETL) dos dados as ferramentas, SQL Power Architect, Jupyter Notebook, Pentaho Data Integration e PostgreSQL. Para a elaboração do painel de telefonia foi utilizado o Power BI.
+Ao final do projeto foi entregue para a empresa um Data Warehouse e um painel contendo os dados relevantes do sistema de telefonia.
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
-
-<!-- trocar o texto abaixo pelo resumo do trabalho, em inglês -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
-
-Donec molestie, ante quis tempus consequat, mauris ante fringilla elit, euismod hendrerit leo erat et felis. Mauris faucibus odio est, non sagittis urna maximus ut. Suspendisse blandit ligula pellentesque tincidunt malesuada. Sed at ornare ligula, et aliquam dui. Cras a lectus id turpis accumsan pellentesque ut eget metus. Pellentesque rhoncus pellentesque est et viverra. Pellentesque non risus velit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 ### 1. Introdução
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+A EPB é uma empresa que atua no setor de petróleo no Brasil. 	Esta empresa ocupa diversos prédios, localizadas em vários estados do território brasileiro e possui várias unidades no ambiente offshore. Os funcionários de cada uma destas localidades têm ao seu dispor diversos tipos de dispositivos providos pelo Serviço de Telefonia Corporativo, que possibilitam a comunicação por voz internamente e com o ambiente externo à empresa. 
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Devido à vasta quantidade de localidades atendidas, a diversidade de dispositivos utilizados e o grande número de usuários, ter uma visão geral dos números relacionados ao Serviço de Telefonia Corporativo sempre foi um desafio para os gestores da área de TI desta empresa. Os dados sempre estiveram disponíveis, mas não havia uma integração, muito menos o acesso de forma interativa e intuitiva. Os levantamentos e consolidações das informações eram feitos por demanda e de forma manual.  
+
+Este artigo apresenta a processo e a metodologia utilizados para a elaboração de um painel desenvolvido no Power BI, com informações a respeito da rede de telefonia da EPB. O desenvolvimento deste dashboard permitiu a integração dos dados, a disponibilização de self-service para análises específicas, tabelas e gráficos dinâmicos, tornando mais produtivo o planejamento e administração do serviço de telefonia.
+
+Para manter a confidencialidade, foi realizada a anonimização dos dados. Desta forma, o nome da empresa, as localidades e os quantitativos apresentados neste trabalho foram gerados de forma artificial. Porém, toda a metodologia aqui apresentada corresponde ao que foi de fato desenvolvido na empresa.
 
 ### 2. Modelagem
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
+Para a elaboração do painel de telefonia, foram utilizadas diversas fontes de dados.
+A primeira fase do projeto consistiu no levantamento de requisitos e planejamento da solução com os gerentes da empresa. A etapa seguinte de planejamento da solução consistiu em definir a arquitetura e ferramentas utilizadas. O Modelo multidimensional foi desenvolvido na ferramenta Power Architect. 
 
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+O Data Warehouse foi implementado para realizar a integração das informações do serviço de telefonia relevantes para a elaboração do painel. Foi desenvolvido em um sistema de gerenciamento de banco de dados PostgreSQL, versão 12. A arquitetura escolhida foi a Global e Centralizada. Por conta disto, não foram desenvolvidos Data Marts. Além disso, optou-se por utilizar a arquitetura on-premisses.
+
+Para o processo de ETL foram utilizadas as ferramentas Jupyter Notebook Pentaho Data Integration (PDI).
 
 ### 3. Resultados
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+Foi elaborado um painel considerando-se as necessidades de consulta, correlação e visualização de dados. Para isto foi utilizada a ferramenta Power BI. O painel apresenta informações, tais como quantidade total de ramais, quantidade de ramais IP (VoIP) e TDM, quantidade de dispositivos distintos, quantidade de ramais por tipo de ambiente onshore e offshore, quantidade de aparelhos telefônicos e softphone e histórico dos quantitativos de dispositivos distintos.
 
 ### 4. Conclusões
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
-
-Proin feugiat nulla sem. Phasellus consequat tellus a ex aliquet, quis convallis turpis blandit. Quisque auctor condimentum justo vitae pulvinar. Donec in dictum purus. Vivamus vitae aliquam ligula, at suscipit ipsum. Quisque in dolor auctor tortor facilisis maximus. Donec dapibus leo sed tincidunt aliquam.
+O painel elaborado tornou muito mais prática a visualização dos dados gerais do Serviço de Telefonia corporativo.  A integração dos dados e o acesso de forma interativa e intuitiva torna o consumo das informações fácil e imediato. Os levantamentos e consolidações que antes eram feitos por demanda e de forma manual agora estão disponíveis de forma direta. O acesso às informações do painel leva de imediato a alguns insights que têm colaborado com o acompanhamento e planejamento da evolução do serviço. 
 
 ---
 
-Matrícula: 123.456.789
+Matrícula: 192.671.048
 
 Pontifícia Universidade Católica do Rio de Janeiro
 
