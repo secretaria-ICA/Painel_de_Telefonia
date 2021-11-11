@@ -1,8 +1,8 @@
 
-# Painel de Telefonia
+# Painel_de_Telefonia
 
 #### Aluno: [Eduardo Mendes Tavares](https://github.com/edumenta)
-#### Orientador: [Anderson Nascimento](https://github.com/link_do_github).
+#### Orientador: [Anderson Nascimento](https://github.com/insightds).
 
 ---
 
